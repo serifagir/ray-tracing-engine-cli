@@ -6,10 +6,8 @@ A simple ray tracing engine that can be controlled via the command line and rend
 
 ## Ray Tracing Algorithm
 
-
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![lightingnoshadow](https://github.com/user-attachments/assets/6e5c7bc0-b64c-4b72-8f77-bd5936f81008)
+![pixelrender](https://github.com/user-attachments/assets/dce2d239-1580-4fad-8e19-5be084b9ea0c)
 
 
 ## Compiling & Running
@@ -48,16 +46,19 @@ Run executable file
 ## Usage/Examples
 
 ### Create project
+<img width="1071" alt="Screenshot 2024-08-01 at 01 14 56" src="https://github.com/user-attachments/assets/5d2e69be-6a71-4b64-8a7d-4cbb4f39553b">
 
 
 ### Adding Sphere
-position, radius, surface color, reflectivity, transparency, emission color
+position, radius, surface color, reflectivity, transparency
 
 ```shell
 Enter object parameters: (x,y,z),r,(R,G,B),refl,trans
 ```
 
 ### Adding Light Source
+position, radius, surface color, reflectivity, transparency, emission color
+
 ```shell
 Enter object parameters: (x,y,z),r,(R,G,B),refl,trans,emis
 ```
@@ -65,6 +66,7 @@ Enter object parameters: (x,y,z),r,(R,G,B),refl,trans,emis
 
 ## Demo
 Scene with ground and light.
+![scene2](https://github.com/user-attachments/assets/56931500-71b7-42e8-bc03-5f35c76dc362)
 
 
 Parameters: 
@@ -74,6 +76,7 @@ Parameters:
 
 
 Scene with ground, light and spheres
+![scene](https://github.com/user-attachments/assets/2bd7a1d7-d8dc-481b-aaf9-7b04eb38ac6b)
 
 Parameters: 
 
