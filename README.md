@@ -1,4 +1,3 @@
-
 # CLI Ray Tracing Engine
 
 A simple ray tracing engine that can be controlled via the command line and renders images as output.
@@ -144,6 +143,12 @@ position, radius, surface color, reflectivity, transparency, emission color
 ```shell
 Enter object parameters: (x,y,z),r,(R,G,B),refl,trans,emis
 ```
+
+### Rendering
+Type 'render' to create rendered .ppm image
+
+
+<img width="1071" alt="Screenshot 2024-08-01 at 01 21 38" src="https://github.com/user-attachments/assets/fbacae2f-712e-45f1-b698-fac3fb21faa7">
 
 
 ## Demo
